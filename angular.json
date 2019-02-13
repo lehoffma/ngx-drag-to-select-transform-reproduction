@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-drag-to-select-scale-reproduction": {
+    "ngx-drag-to-select-transform-reproduction": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ngx-drag-to-select-scale-reproduction",
+            "outputPath": "dist/ngx-drag-to-select-transform-reproduction",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -61,18 +61,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngx-drag-to-select-scale-reproduction:build"
+            "browserTarget": "ngx-drag-to-select-transform-reproduction:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngx-drag-to-select-scale-reproduction:build:production"
+              "browserTarget": "ngx-drag-to-select-transform-reproduction:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-drag-to-select-scale-reproduction:build"
+            "browserTarget": "ngx-drag-to-select-transform-reproduction:build"
           }
         },
         "test": {
@@ -106,7 +106,7 @@
         }
       }
     },
-    "ngx-drag-to-select-scale-reproduction-e2e": {
+    "ngx-drag-to-select-transform-reproduction-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -115,11 +115,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "ngx-drag-to-select-scale-reproduction:serve"
+            "devServerTarget": "ngx-drag-to-select-transform-reproduction:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "ngx-drag-to-select-scale-reproduction:serve:production"
+              "devServerTarget": "ngx-drag-to-select-transform-reproduction:serve:production"
             }
           }
         },
@@ -135,5 +135,5 @@
       }
     }
   },
-  "defaultProject": "ngx-drag-to-select-scale-reproduction"
+  "defaultProject": "ngx-drag-to-select-transform-reproduction"
 }

@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'ngx-drag-to-select-scale-reproduction'`, () => {
+  it(`should have as title 'ngx-drag-to-select-transform-reproduction'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('ngx-drag-to-select-scale-reproduction');
+    expect(app.title).toEqual('ngx-drag-to-select-transform-reproduction');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to ngx-drag-to-select-scale-reproduction!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to ngx-drag-to-select-transform-reproduction!');
   });
 });
